@@ -1,0 +1,22 @@
+@font-face {
+  font-family: BerninaSans;
+  src: url(fonts/BerninaSans-Web-Light.woff) format("woff"),url(fonts/BerninaSans-Web-Light.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: BerninaSans;
+  src: url(fonts/BerninaSans-Web-Regular.woff) format("woff"),url(fonts/BerninaSans-Web-Regular.woff2) format("woff2");
+  font-weight: 500; 
+}
+
+@font-face {
+  font-family: BerninaSans;
+  src: url(fonts/BerninaSans-Web-Semibold.woff) format("woff"),url(fonts/BerninaSans-Web-Semibold.woff2) format("woff2");
+  font-weight: 600; 
+}
+
+@font-face {
+  font-family: BerninaSans;
+  src: url(fonts/BerninaSans-Web-Bold.woff) format("woff"),url(fonts/BerninaSans-Web-Bold.woff2) format("woff2");
+  font-weight: 700; 
+}
