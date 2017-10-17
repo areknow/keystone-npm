@@ -40,7 +40,7 @@ var Footer = React.createClass({
 			<footer className={css(classes.footer)} data-keystone-footer>
 				<Container>
 					<a
-						href='../'
+						href={Keystone.adminPath.slice(0,-5)}
 						tabIndex="-1"
 						className={css(classes.link)}
 					>

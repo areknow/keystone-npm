@@ -52,7 +52,7 @@ var PrimaryNavigation = React.createClass({
 		return (
 			<PrimaryNavItem
 				label="octicon-globe"
-				href='../'
+				href={Keystone.adminPath.slice(0,-5)}
 				title={'Front page - ' + this.props.brand}
 			>
 				<span className="octicon octicon-globe" />
