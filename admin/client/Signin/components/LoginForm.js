@@ -39,7 +39,7 @@ const LoginForm = ({
           Sign In
 				</Button>
 			</Form>
-      <div className="guild-name">{guild}</div>
+      <div className="guild-name">{guild}<span>DXS</span></div>
 		</div>
 	);
 };
