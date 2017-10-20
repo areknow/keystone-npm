@@ -158,6 +158,14 @@ var EditForm = React.createClass({
 					values: data.fields,
 					loading: false,
 				});
+				// console.log(this)
+				// console.log(this.state)
+				// console.log(this.state.values.email)
+				// if (this.state.values.email == 'admin@dynatrace.com') {
+				// 	console.log('admin account detected')
+				// }
+				// console.log(JSON.stringify(data.fields))
+
 			}
 		});
 	},

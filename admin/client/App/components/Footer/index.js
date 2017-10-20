@@ -33,13 +33,14 @@ var Footer = React.createClass({
 			</span>
 		);
 	},
-	render () {
+	render () { 
 		const { backUrl, brand, appversion, version } = this.props;
 
 		return (
 			<footer className={css(classes.footer)} data-keystone-footer>
 				<Container>
 					<a
+						/* href={backUrl} */
 						href={Keystone.adminPath.slice(0,-5)}
 						tabIndex="-1"
 						className={css(classes.link)}

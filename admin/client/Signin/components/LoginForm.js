@@ -5,6 +5,9 @@
 import React, { PropTypes } from 'react';
 import { Button, Form, FormField, FormInput } from '../../App/elemental';
 
+var guild = Keystone.adminPath.split('/');
+guild = guild[1].replace('-',' ');
+
 const LoginForm = ({
 	email,
 	handleInputChange,
@@ -33,9 +36,10 @@ const LoginForm = ({
 					/>
 				</FormField>
 				<Button disabled={isAnimating} color="primary" type="submit">
-					Sign In
+          Sign In
 				</Button>
 			</Form>
+      <div className="guild-name">{guild}</div>
 		</div>
 	);
 };
