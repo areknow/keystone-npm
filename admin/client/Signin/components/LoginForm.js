@@ -5,9 +5,6 @@
 import React, { PropTypes } from 'react';
 import { Button, Form, FormField, FormInput } from '../../App/elemental';
 
-var guild = Keystone.adminPath.split('/');
-guild = guild[1].replace('-',' ');
-
 const LoginForm = ({
 	email,
 	handleInputChange,
@@ -39,7 +36,7 @@ const LoginForm = ({
           Sign In
 				</Button>
 			</Form>
-      <div className="guild-name">{guild}<span>DXS</span></div>
+      <div className="guild-name">{Keystone.brand}<span>DXS</span></div>
 		</div>
 	);
 };
